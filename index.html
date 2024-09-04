@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="stylesheet" href="/static/style.css">
+    </head>
+    
+    <body>
+
+        <header>
+            <a href="https://alacrityfoundation.co.uk/">
+                <img src="static/alacritycanada_logo.jpeg" id="header-logo">
+            </a>            
+        <h1 id="header-title">Alacrity Showroom</h1>
+        </header>
+
+        <div class="container">
+
+            <div class="form-container">
+                <h2>Add a New Car</h2>
+                <input type="text" id="car-make" placeholder="Car Make">
+                <input type="number" id="car-price" placeholder="Car Price">
+                <input type="number" id="car-year" placeholder="Year of Manufacture">
+            </div>
+
+            <div class="car-list">
+                <h2>Cars</h2>
+                <ul id="car-collection"></ul>
+            </div>
+
+            <div class="results">
+                <h2>Stats</h2>
+                <p>Average Price: <span id="average-price"></p>
+                <p>Oldest Car: <span id="oldest-car"></p>
+                <p>Most Expensive Car: <span id="most-expensive-car"></p>
+            </div>
+        </div>
+
+    <script src="script.js"></script>
+
+    </body>
+
+</html>
