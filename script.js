@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function displayCars() {
     const carList = document.getElementById('car-collection');
-    carList.innerHTML = cars.map(car => `<li>${car.mak} - $${car.price} - ${car.year}</li>`).join('');
+    carList.innerHTML = cars.map(car => `<li>${car.make} - $${car.price} - ${car.year}</li>`).join('');
 }
 
 function calculateStatistics() {
